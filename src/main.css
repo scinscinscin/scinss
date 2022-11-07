@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body, textarea{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #0f0f0f;
+	color: #eae5e6;
+}
+
+.container{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+header{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+header > h2{
+	font-size: 1.2em;
+}
+
+.submitButton{
+	padding: 10px 20px;
+	background-color: #202020;
+	border: none;
+	color: white;
+	font-family: monospace;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-weight: bolder;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.submitButton:hover{
+	background-color: #303030;
+}
