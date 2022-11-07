@@ -25,8 +25,8 @@ function App() {
 	return (
 		<div className="container">
 			<header>
-				<h1>scinss</h1>
-				<h2>a rudimentary css preprocessor</h2>
+				<a href="https://github.com/scinscinscin/scinss"><h1>scinss</h1></a>
+				<h2>a rudimentary css preprocessor. </h2>
 			</header>
 
 			<h2>Editor</h2>
