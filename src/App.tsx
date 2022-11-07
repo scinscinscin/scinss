@@ -12,7 +12,14 @@ const EditorStyles = {
 }
 
 function App() {
-	const [code, setCode] = React.useState("");
+	const [code, setCode] = React.useState(
+	`body{
+  text-align: center;
+	
+  >.header, >#footer{
+    background-color: gray;
+  }
+}`);
 	const [output, setOutput] = React.useState("<nothing to show>");
 	
 	return (
